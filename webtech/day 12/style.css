@@ -1,0 +1,43 @@
+/* div p{
+    background-color: red;
+    color: purple;
+} */
+
+
+/* 
+child selector
+div>p{
+    background-color: pink;
+
+} */
+
+/* 
+adjcent sibling selctor
+selection+p{
+    background-color: blue;
+} */
+
+/* div~p{
+    background-color: blanchedalmond;
+} */
+
+h1::after{
+    content: "tere bine ";
+}
+
+h1::before{
+    content: "what is your ";
+}
+
+h1::first-letter{
+    color: red;
+}
+
+h1::first-line{
+    color: pink;
+}
+
+
+
+
+

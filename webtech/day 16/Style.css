@@ -1,0 +1,47 @@
+#main{
+    background-color: black;
+    border: 2px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.d1{
+    width: 25%;
+}
+.d2{
+    width: 50%;
+}
+.d3{
+    width: 25%;
+}
+a{
+    color: green;
+    font-size: large;
+    
+    
+}
+#hi{
+    justify-content: center;
+    display: flex;
+}
+
+#main2{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 40%;
+}
+#hello{
+    justify-content: space-evenly;
+    
+}
+[placeholder]{
+    width: 400px;
+    height: 40px;
+
+}

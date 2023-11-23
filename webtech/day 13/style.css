@@ -1,0 +1,43 @@
+/* a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: aqua;
+}
+
+p:first-child{
+    background-color: yellow;
+}
+
+p:last-child{
+    background-color: aquamarine;
+}
+
+p:nth-child(4){
+    background-color: magenta;
+}
+
+h1:nth-child(3){
+    background-color: red;
+} */
+#image{
+    background-image: url("./download.jpg");
+   
+
+}
+#image:hover{
+    background-image: url("./mahatmag.jpg");
+    height: 1px;
+    width: 10px;
+   
+
+}
