@@ -1,0 +1,26 @@
+h1{
+    background-color: rgb(0,0,0);
+    color: white;
+    border: 10px solid yellow;
+   
+}
+
+h2{
+    background-color: rgba(26,200,0);
+} 
+
+h3{
+    background-color: rgba(200,150,250,0.6);
+}
+
+h4{
+    background-color: hsl(30deg,50%,30%);
+}
+
+h5{
+    background-color: hsla(40deg,60%,40%,0.9);
+
+}
+h6{
+    background-color: #ff00f0;
+}
