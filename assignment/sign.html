@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+       .container{
+        background-color: lightblue;
+        height: 800px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+       }
+
+       .container1{
+        background-color: skyblue;
+        border: 2px solid black;
+        height: 300px;
+        width: 500px;
+    
+       }
+       .block
+       {
+        height: 25px;
+        margin: 20px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center;
+       }
+       button{
+        height: 30px;
+        width: 100px;
+        border: 3px solid black;
+        border-radius: 10px;
+        background-color: rgb(142, 189, 208);
+       }
+
+
+       button:hover{
+        height: 32px;
+        width: 130px;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        background-color: rgb(12, 66, 88);
+        color: white;
+       }
+
+       input{
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 30px;
+        width: 140px;
+       }
+       label{
+        font-size: 25px;
+        font-weight: 600;
+       }
+       a{
+        text-decoration: none;
+       }
+    
+    
+       
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="container1">
+
+        <div  class="block login"><a href="./index.html"><h1>Login</h1></a>
+            <a href="#"><h1>Signup</h1></a></div>
+            
+        <div class="block">
+            <label for="username" >Username</label>
+            <input type="username" >
+        </div>
+        <div class="block">
+            <label for="email" >Email</label>
+            <input type="email" >
+        </div>
+        <div class="block">
+            <label for="password">Password</label>
+            <input type="password">
+        </div>
+        <div class="block" >
+            <a href="./nav.html"> <button>Submit</button></a>
+            <a href="./nav.html"> <button>Cancel</button> </a>
+        </div>
+        
+
+
+    </div>
+
+    
+        
+   </div>
+</body>
+</html>

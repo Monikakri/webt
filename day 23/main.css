@@ -1,0 +1,49 @@
+nav{
+    background-color: pink;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 0px;
+    margin: 0px;
+
+}
+body{
+    
+    background-image: url("https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=400");
+    background-repeat: repeat;
+    
+}
+
+/* phone display */
+@media screen and (min-width:0px) and (max-width:400px){
+    nav{
+        background-color: magenta;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 0px;
+        flex-direction: column;
+       
+
+    }
+    body{
+        background-image: url("https://images.pexels.com/photos/160846/french-bulldog-summer-smile-joy-160846.jpeg?auto=compress&cs=tinysrgb&w=400");
+        background-repeat: repeat;
+    }
+}
+
+/* tablet display */
+@media screen and (min-width:401px) and (max-width:600px){
+    nav{
+        background-color: peru;  
+        
+    }
+
+    body{
+        background-image: url("https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg?auto=compress&cs=tinysrgb&w=400");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
