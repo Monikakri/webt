@@ -1,0 +1,15 @@
+nav{
+   
+    flex-direction: row;
+    height: 75px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+.flexx{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
